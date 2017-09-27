@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<plugin id="cordova-plugin-ios-bluetooth-permissions" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+    <name>iOS Permissions</name>
+    <author>Swetha thoomoju</author>
+    <description> Cordova / PhoneGap Plugin Permission Settings for NSBluetoothPeripheralUsageDescription</description>
+    <keywords>cordova, ios, app, security, permissions, NSBluetoothPeripheralUsageDescription</keywords>
+    <license>MIT</license>
+    <engines>
+        <engine name="cordova" version=">=3.0.0"/>
+        </engines>
+        <platform name="ios">
+            <preference name="BLUETOOTH_USAGE_DESCRIPTION" default="This app needs bluetooth access"/>
+            <config-file target="*-Info.plist" parent="NSBluetoothPeripheralUsageDescription">
+                <string>$BLUETOOTH_USAGE_DESCRIPTION</string>
+            </config-file>
+        </platform>
+    </plugin>

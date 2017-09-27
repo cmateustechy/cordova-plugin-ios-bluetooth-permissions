@@ -1,0 +1,40 @@
+{
+  "name": "cordova-plugin-ios-bluetooth-permissions",
+  "version": "1.0.0",
+  "author": "Swetha thoomoju <swetha.thoomoju@gmail.com>",
+  "description": "Cordova / PhoneGap Plugin Permission Settings for NSBluetoothPeripheralUsageDescription",
+  "cordova": {
+    "id": "cordova-plugin-ios-bluetooth-permissions",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swetha-thoomoju/cordova-plugin-ios-bluetooth-permissions.git"
+  },
+  "keywords": [
+    "cordova",
+    "ios",
+    "ios10",
+    "ios11",
+    "app",
+    "permissions",
+    "NSBluetoothPeripheralUsageDescription",
+    "bluetooth",
+    "ble",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/swetha-thoomoju/cordova-plugin-ios-bluetooth-permissions.git"
+  },
+  "homepage": "https://github.com/swetha-thoomoju/cordova-plugin-ios-bluetooth-permissions.git"
+}
