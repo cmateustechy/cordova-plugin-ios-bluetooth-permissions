@@ -9,9 +9,14 @@
         <engine name="cordova" version=">=3.0.0"/>
         </engines>
         <platform name="ios">
-            <preference name="BLUETOOTH_USAGE_DESCRIPTION" default="This app needs bluetooth access"/>
+            <preference name="BLUETOOTH_USAGE_DESCRIPTION" default="Wesko app would like to use bluetooth."/>
+            <preference name="BLUETOOTH_ALWAYS_USAGE_DESCRIPTION" default="Wesko app would like to use bluetooth for conntecting a smart lock."/>
+
             <config-file target="*-Info.plist" parent="NSBluetoothPeripheralUsageDescription">
                 <string>$BLUETOOTH_USAGE_DESCRIPTION</string>
+            </config-file>
+             <config-file target="*-Info.plist" parent="NSBluetoothAlwaysUsageDescription">
+                <string>$BLUETOOTH_ALWAYS_USAGE_DESCRIPTION</string>
             </config-file>
         </platform>
     </plugin>
